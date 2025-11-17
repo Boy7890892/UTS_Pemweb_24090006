@@ -1,9 +1,15 @@
 Nama : Akhmad Ridwan Ariyanto
+
 NIM : 24090006
+
 Link Github Repository : https://github.com/Boy7890892/UTS_Pemweb_24090006/tree/main
+
 Link Github Pages : https://boy7890892.github.io/UTS_Pemweb_24090006/
+
 Email: akhmadridwan@gmail.com
+
 PW : Admin123
+
 Deskripsi singkat : 
 Proyek ini adalah Dashboard Administrasi Produk Sederhana yang dibangun menggunakan HTML, CSS, dan Vanilla JavaScript.
 Tujuan utamanya adalah menyediakan antarmuka frontend yang modern dan responsif untuk mengelola data produk.
