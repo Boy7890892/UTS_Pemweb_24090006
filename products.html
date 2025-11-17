@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halaman data produk</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-layout">
+        
+        <aside class="sidebar">
+            <div class="sidebar-logo">Produk</div>
+            <ul class="sidebar-menu">
+                <li class="menu-item"><a href="dashboard.html"><i class="fas fa-home"></i></a></li>
+                <li class="menu-item active"><a href="#"><i class="fas fa-th-large"></i></a></li>
+                <li class="menu-item"><a href="#"><i class="fas fa-truck"></i></a></li>
+                <li class="menu-item"><a href="#"><i class="fas fa-chart-bar"></i></a></li>
+                <li class="menu-item settings"><a href="#"><i class="fas fa-cog"></i></a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <header class="main-header">
+                <h1>List Data Product</h1>
+            </header>
+            
+            
+            
+
+            <div class="content-area">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="product-list-body">
+                    </tbody>
+                </table>
+                <div class="dashboard-actions">
+             <a href="dashboard.html" class="btn btn-secondary">
+            Kembali ke Dashboard
+            </a>
+            </div>
+            </div>
+            
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
